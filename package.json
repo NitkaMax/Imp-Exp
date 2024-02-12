@@ -1,0 +1,23 @@
+{
+  "name": "import_export",
+  "version": "1.0.0",
+  "description": "Домашнее задание к лекции <<Модули>>",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NitkaMax"
+  },
+  "author": "NitkaMax",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.10.0",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.8.0",
+    "raw-loader": "^4.0.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
